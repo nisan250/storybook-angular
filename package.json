@@ -8,8 +8,8 @@
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "storybook": "start-storybook -p 6006",
-    "build-storybook": "build-storybook"
+    "storybook": "start-storybook -p 6006 -s ./Images",
+    "build-storybook": "build-storybook -s ./Images"
   },
   "private": true,
   "dependencies": {
@@ -21,6 +21,8 @@
     "@angular/platform-browser": "~9.0.0",
     "@angular/platform-browser-dynamic": "~9.0.0",
     "@angular/router": "~9.0.0",
+    "@storybook/addon-a11y": "^5.3.12",
+    "@storybook/addon-storysource": "^5.3.12",
     "rxjs": "~6.5.4",
     "tslib": "^1.10.0",
     "zone.js": "~0.10.2"
@@ -34,6 +36,13 @@
     "@storybook/addon-actions": "^5.3.12",
     "@storybook/addon-links": "^5.3.12",
     "@storybook/addon-notes": "^5.3.12",
+    "@storybook/addon-backgrounds": "^5.3.12",
+    "@storybook/addon-console": "^1.2.1",
+    "@storybook/addon-docs": "^5.3.12",
+    "@storybook/addon-info": "^5.3.12",
+    "@storybook/addon-knobs": "^5.3.12",
+    "@storybook/addon-storyshots-puppeteer": "^5.3.12",
+    "@storybook/addon-viewport": "^5.3.12",
     "@storybook/addons": "^5.3.12",
     "@storybook/angular": "^5.3.12",
     "@types/jasmine": "~3.5.0",
